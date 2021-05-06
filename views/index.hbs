@@ -26,7 +26,7 @@
       if (!pawToggled) {
         // Runs when we toggle the button
         document.getElementsByClassName("catpaw-container")[0].classList.add("catpaw-extended");
-        myTimeout = setTimeout(callbackToggle(), 200);
+        myTimeout = setTimeout(callbackToggle(), 20000);
       } else {
         document.getElementsByClassName("catpaw-container")[0].classList.remove("catpaw-extended");
         clearTimeout(myTimeout);
